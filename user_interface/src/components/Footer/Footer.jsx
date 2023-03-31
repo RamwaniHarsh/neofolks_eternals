@@ -15,8 +15,7 @@ const Footer = () => {
             <div className=" footer__logo text-start">
               <img src={logo} alt="logo" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt pariatur accusamus
+              Your diet is a bank account in which good food choices are good investments.
               </p>
             </div>
           </Col>
@@ -25,14 +24,10 @@ const Footer = () => {
             <h5 className="footer__title">Delivery Time</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Sunday - Thursday</span>
-                <p>10:00am - 11:00pm</p>
+                <span>Monday - Sunday</span>
+                <p>7.00am to 9.00pm</p>
               </ListGroupItem>
 
-              <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Friday - Saturday</span>
-                <p>Off day</p>
-              </ListGroupItem>
             </ListGroup>
           </Col>
 
@@ -40,14 +35,14 @@ const Footer = () => {
             <h5 className="footer__title">Contact</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <p>Location: ZindaBazar, Sylhet-3100, Bangladesh</p>
+                <p>Location: Ahemdabad, Chandkheda,Maninagar,Gota</p>
               </ListGroupItem>
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Phone: 01712345678</span>
+                <span>Mobile No. 9387454855</span>
               </ListGroupItem>
 
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Email: example@gmail.com</span>
+                <span>Email: infimessmate@gmail.com</span>
               </ListGroupItem>
             </ListGroup>
           </Col>

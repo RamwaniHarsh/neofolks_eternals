@@ -3,6 +3,9 @@ import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/common-section/CommonSection";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
+import { cartActions } from "../store/shopping-cart/cartSlice";
+
+
 function subcription() {
 
     return (
@@ -17,16 +20,16 @@ function subcription() {
                 <div className="form__group">
                   <h3>Basic</h3>
                   <h6>299</h6>
-                  <Link to="/payment">
+                  <Link to="/checkout">
                  <button type="submit" className="addTOCart__btn">Buy</button>
-              </Link>
+                 </Link>
                 </div>
               </div>
               <div className="form my-5 category__item" >
                 <div className="form__group">
                   <h3>Standard</h3>
                   <h6>499</h6>
-                  <Link to="/payment">
+                  <Link to="/checkout">
                  <button type="submit" className="addTOCart__btn">Buy</button>
               </Link>
                 </div>
@@ -35,7 +38,7 @@ function subcription() {
                 <div className="form__group">
                   <h3>Premium</h3>
                   <h6>499</h6>
-                  <Link to="/payment">
+                  <Link to="/checkout">
                  <button type="submit" className="addTOCart__btn">Buy</button>
               </Link>
                 </div>

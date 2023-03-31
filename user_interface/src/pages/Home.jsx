@@ -34,18 +34,18 @@ const featureData = [
   {
     title: "Quick Delivery",
     imgUrl: featureImg01,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "We deliver the food as fast as possible with all the necessary food precaution",
   },
 
   {
     title: "Budget Report",
     imgUrl: featureImg02,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Budget Report for students to keep track of their spending on food",
   },
   {
     title: "Diet Analysis",
     imgUrl: featureImg03,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Diet Analysis Report for students to keep track of and be conscious about what they are consuming every day",
   },
 ];
 
@@ -105,8 +105,7 @@ const Home = () => {
                 </h1>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                  magni delectus tenetur autem, sint veritatis!
+                  Your diet is a bank account in which good food choices are good investments.
                 </p>
 
                 <div className="hero__btns d-flex align-items-center gap-5 mt-4">
@@ -160,13 +159,12 @@ const Home = () => {
                 we will <span>take care</span>
               </h2>
               <p className="mb-1 mt-4 feature__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                officiis?
+              Mess-Mate is a site for students who need a healthy and tasty alternative to their everyday meals of the same mess, with daily, weekly and monthly tracking of their diet and budget
               </p>
-              <p className="feature__text">
+              {/* <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Aperiam, eius.{" "}
-              </p>
+              </p> */}
             </Col>
 
             {featureData.map((item, index) => (
@@ -266,10 +264,7 @@ const Home = () => {
                   Why <span>Mess Mate?</span>
                 </h2>
                 <p className="tasty__treat-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum, minus. Tempora reprehenderit a corporis velit,
-                  laboriosam vitae ullam, repellat illo sequi odio esse iste
-                  fugiat dolor, optio incidunt eligendi deleniti!
+                We are bonding with the mess and catering services, for students who find it hard to have healthy and affordable food options, with diet report generation and budget reports as well. 
                 </p>
 
                 <ListGroup className="mt-4">
@@ -279,8 +274,7 @@ const Home = () => {
                       foods
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Quia, voluptatibus.
+                      You will get fresh and healthy food with the best taste.
                     </p>
                   </ListGroupItem>
 
@@ -289,8 +283,7 @@ const Home = () => {
                       <i class="ri-checkbox-circle-line"></i> Quality support
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                      Quality Food is maintain with a good packaging of the food.
                     </p>
                   </ListGroupItem>
 
@@ -300,8 +293,7 @@ const Home = () => {
                       location{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                     You can order from any location you will get fresh food with cost effective service of delivery.  
                     </p>
                   </ListGroupItem>
                 </ListGroup>
@@ -338,9 +330,7 @@ const Home = () => {
                   What our <span>customers</span> are saying
                 </h2>
                 <p className="testimonial__desc">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Distinctio quasi qui minus quos sit perspiciatis inventore
-                  quis provident placeat fugiat!
+                "Best self-configurable ordering system with almost all the necessary functions and an attractive design. I didn't find any better!"
                 </p>
 
                 <TestimonialSlider />
