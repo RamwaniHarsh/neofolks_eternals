@@ -38,12 +38,12 @@ const featureData = [
   },
 
   {
-    title: "Super Dine In",
+    title: "Budget Report",
     imgUrl: featureImg02,
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
   },
   {
-    title: "Easy Pick Up",
+    title: "Diet Analysis",
     imgUrl: featureImg03,
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
   },
@@ -53,7 +53,7 @@ const Home = () => {
   const [category, setCategory] = useState("ALL");
   const [allProducts, setAllProducts] = useState(products);
 
-  const [hotPizza, setHotPizza] = useState([]);
+  const [HotPizza,setHotPizza] = useState([]);
 
   useEffect(() => {
     const filteredPizza = products.filter((item) => item.category === "Pizza");
@@ -190,7 +190,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2>Popular Foods</h2>
+              <h2>Popular Organization</h2>
             </Col>
 
             <Col lg="12">
@@ -205,32 +205,41 @@ const Home = () => {
                 </button>
                 <button
                   className={`d-flex align-items-center gap-2 ${
-                    category === "BURGER" ? "foodBtnActive" : ""
+                    category === "FastFood" ? "foodBtnActive" : ""
                   } `}
-                  onClick={() => setCategory("BURGER")}
+                  onClick={() => setCategory("FastFood")}
                 >
                   <img src={foodCategoryImg01} alt="" />
-                  Burger
+                  FastFood
                 </button>
+
 
                 <button
                   className={`d-flex align-items-center gap-2 ${
-                    category === "PIZZA" ? "foodBtnActive" : ""
+                    category === "Salad" ? "foodBtnActive" : ""
                   } `}
-                  onClick={() => setCategory("PIZZA")}
-                >
-                  <img src={foodCategoryImg02} alt="" />
-                  Pizza
-                </button>
-
-                <button
-                  className={`d-flex align-items-center gap-2 ${
-                    category === "BREAD" ? "foodBtnActive" : ""
-                  } `}
-                  onClick={() => setCategory("BREAD")}
+                  onClick={() => setCategory("Salad")}
                 >
                   <img src={foodCategoryImg03} alt="" />
-                  Bread
+                  Salad
+                </button>
+                <button
+                  className={`d-flex align-items-center gap-2 ${
+                    category === "Healthy Food" ? "foodBtnActive" : ""
+                  } `}
+                  onClick={() => setCategory("Healthy Food")}
+                >
+                  <img src={foodCategoryImg03} alt="" />
+                  Healthy Food
+                </button>
+                <button
+                  className={`d-flex align-items-center gap-2 ${
+                    category === "Veg or Non Veg" ? "foodBtnActive" : ""
+                  } `}
+                  onClick={() => setCategory("Veg or Non Veg")}
+                >
+                  <img src={foodCategoryImg02} alt="" />
+                  Veg or Non Veg
                 </button>
               </div>
             </Col>
@@ -302,7 +311,7 @@ const Home = () => {
         </Container>
       </section>
 
-      <section className="pt-0">
+      {/* <section className="pt-0">
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5 ">
@@ -316,7 +325,8 @@ const Home = () => {
             ))}
           </Row>
         </Container>
-      </section>
+      </section> */}
+      
 
       <section>
         <Container>

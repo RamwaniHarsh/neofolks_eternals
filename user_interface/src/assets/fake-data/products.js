@@ -3,11 +3,11 @@ import product_01_image_01 from "../images/product_01.jpg";
 import product_01_image_02 from "../images/product_01.1.jpg";
 import product_01_image_03 from "../images/product_01.3.jpg";
 
-import product_02_image_01 from "../images/product_2.1.jpg";
+import product_02_image_01 from "../images/product_2.1.png";
 import product_02_image_02 from "../images/product_2.2.jpg";
 import product_02_image_03 from "../images/product_2.3.jpg";
 
-import product_03_image_01 from "../images/product_3.1.jpg";
+import product_03_image_01 from "../images/product_3.1.png";
 import product_03_image_02 from "../images/product_3.2.jpg";
 import product_03_image_03 from "../images/product_3.3.jpg";
 
@@ -27,6 +27,7 @@ const products = [
   {
     id: "01",
     title: "Chicken Burger",
+    title1: "from Jaiswal Canteen",
     price: 24.0,
     image01: product_01_image_01,
     image02: product_01_image_02,
@@ -38,7 +39,8 @@ const products = [
 
   {
     id: "02",
-    title: "Vegetarian Pizza",
+    title: "Salad",
+    title1: "from Desi Canteen",
     price: 115.0,
     image01: product_02_image_01,
     image02: product_02_image_02,
@@ -50,7 +52,8 @@ const products = [
 
   {
     id: "03",
-    title: "Double Cheese Margherita",
+    title: "Gujarati Thali",
+    title1: "Aunty's Tiffin Service",
     price: 110.0,
     image01: product_03_image_01,
     image02: product_03_image_02,
@@ -63,6 +66,7 @@ const products = [
   {
     id: "04",
     title: "Maxican Green Wave",
+    title1: "Aunty's Tiffin Service",
     price: 110.0,
     image01: product_04_image_01,
     image02: product_04_image_02,
@@ -75,6 +79,7 @@ const products = [
   {
     id: "05",
     title: "Cheese Burger",
+    title1: "from Rajwadi Canteen",
     price: 24.0,
     image01: product_05_image_01,
     image02: product_05_image_02,
@@ -86,6 +91,7 @@ const products = [
   {
     id: "06",
     title: "Royal Cheese Burger",
+    title1: "from Rajwadi Canteen",
     price: 24.0,
     image01: product_01_image_01,
     image02: product_01_image_02,
@@ -98,6 +104,7 @@ const products = [
   {
     id: "07",
     title: "Seafood Pizza",
+    title1: "from Jaiswal Canteen",
     price: 115.0,
     image01: product_02_image_02,
     image02: product_02_image_01,
@@ -110,6 +117,7 @@ const products = [
   {
     id: "08",
     title: "Thin Cheese Pizza",
+    title1: "Aunty's Tiffin Service",
     price: 110.0,
     image01: product_03_image_02,
     image02: product_03_image_01,
@@ -122,6 +130,7 @@ const products = [
   {
     id: "09",
     title: "Pizza With Mushroom",
+    title1: "from Jaiswal Canteen",
     price: 110.0,
     image01: product_04_image_02,
     image02: product_04_image_01,
@@ -134,6 +143,7 @@ const products = [
   {
     id: "10",
     title: "Classic Hamburger",
+    title1: "from Jaiswal Canteen",
     price: 24.0,
     image01: product_05_image_02,
     image02: product_05_image_01,
@@ -146,6 +156,7 @@ const products = [
   {
     id: "11",
     title: "Crunchy Bread ",
+    title1: "Aunty's Tiffin Service",
     price: 35.0,
     image01: product_06_image_01,
     image02: product_06_image_02,
@@ -158,6 +169,7 @@ const products = [
   {
     id: "12",
     title: "Delicious Bread ",
+    title1: "from Jaiswal Canteen",
     price: 35.0,
     image01: product_06_image_02,
     image02: product_06_image_01,
@@ -170,6 +182,7 @@ const products = [
   {
     id: "13",
     title: "Loaf Bread ",
+    title1: "Aunty's Tiffin Service",
     price: 35.0,
     image01: product_06_image_03,
     image02: product_06_image_02,

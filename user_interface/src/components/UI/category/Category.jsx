@@ -11,21 +11,21 @@ import "../../../styles/category.css";
 
 const categoryData = [
   {
-    display: "Fastfood",
+    display: "College Canteens",
     imgUrl: categoryImg01,
   },
   {
-    display: "Pizza",
+    display: "PG's Food",
     imgUrl: categoryImg02,
   },
 
   {
-    display: "Asian Food",
+    display: "Tiffin Service",
     imgUrl: categoryImg03,
   },
 
   {
-    display: "Row Meat",
+    display: "Catering Service",
     imgUrl: categoryImg04,
   },
 ];

@@ -8,6 +8,12 @@ const Register = () => {
   const signupNameRef = useRef();
   const signupPasswordRef = useRef();
   const signupEmailRef = useRef();
+  const signupAddressRef = useRef();
+  const signupMobileRef = useRef();
+  const signupDobRef = useRef();
+  const signupgenderRef = useRef();
+  const signupheightRef = useRef();
+  const signupweightRef = useRef();
 
   const submitHandler = (e) => {
     e.preventDefault();
@@ -31,10 +37,58 @@ const Register = () => {
                 </div>
                 <div className="form__group">
                   <input
+                    type=""
+                    placeholder="Mobile No."
+                    required
+                    ref={signupMobileRef}
+                  />
+                </div>
+                <div className="form__group">
+                  <input
+                    type="Number"
+                    placeholder="Date of Birth"
+                    required
+                    ref={signupDobRef}
+                  />
+                </div>
+                <div className="form__group">
+                  <input
                     type="email"
                     placeholder="Email"
                     required
                     ref={signupEmailRef}
+                  />
+                </div>
+                <div className="form__group">
+                  <input
+                    type="text"
+                    placeholder="Address"
+                    required
+                    ref={signupAddressRef}
+                  />
+                </div>
+                <div className="form__group">
+                  <input
+                    type="text"
+                    placeholder="Gender"
+                    required
+                    ref={signupgenderRef}
+                  />
+                </div>
+                <div className="form__group">
+                  <input
+                    type="number"
+                    placeholder="Height"
+                    required
+                    ref={signupheightRef}
+                  />
+                </div>
+                <div className="form__group">
+                  <input
+                    type="number"
+                    placeholder="Weight"
+                    required
+                    ref={signupweightRef}
                   />
                 </div>
                 <div className="form__group">
@@ -45,6 +99,7 @@ const Register = () => {
                     ref={signupPasswordRef}
                   />
                 </div>
+               
                 <button type="submit" className="addTOCart__btn">
                   Sign Up
                 </button>

@@ -9,6 +9,8 @@ import Checkout from "../pages/Checkout";
 import Contact from "../pages/Contact";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import Subcription from "../pages/subcription";
+import Payment from "../pages/payment";
 
 const Routers = () => {
   return (
@@ -22,6 +24,8 @@ const Routers = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/subcription" element={<Subcription />} />
+      <Route path="/payment" element={<Payment />} />
     </Routes>
   );
 };
